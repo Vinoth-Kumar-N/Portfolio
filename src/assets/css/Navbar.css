@@ -1,0 +1,37 @@
+/* .nav-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: #142742;
+    transition: 0.5s ease;
+    display: none;
+} */
+
+.nav-menu {
+    position: absolute;
+    top: 0;
+    right: -100%;
+    width: 300px;
+    height: 100vh;
+    background-color: #142742;
+    transition: 0.5s ease;
+    display: none;
+}
+
+.nav-menu.active {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: #142742;
+    transition: 2s ease;
+    display: block;
+}
+
+
+/* @media screen and (max-width: 640px) {
+    
+} */
