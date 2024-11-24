@@ -15,7 +15,7 @@ const ProjectCard = ({ title, desc, cover, id, link }) => {
         </p>
         <p className="text-[#d9cfea] text-sm px-6 m-1 bg-[#0c1f3d]">{desc}</p>
         <div className=" h-[3rem] w-full flex flex-row gap-6 justify-end items-center p-6 bg-[#0c1f3d]" >
-          <a href={link} className=" p-2 rounded-md">
+          <a href={link} target='_blank' className=" p-2 rounded-md">
             <div className="bg-[#0c1f3d] text-[#bbb]">
               <Link />
             </div>

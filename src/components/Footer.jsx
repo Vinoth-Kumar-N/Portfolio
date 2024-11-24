@@ -6,7 +6,7 @@ const Footer = () => {
         <>
             <footer className='w-full h-full flex flex-col justify-center items-center bg-[#0a0416]'>
                 <div className="md:w-[40%] flex items-center justify-center bg-[#0a0416]">
-                    <h1 className="text-[#FFE1FF] bg-[#0a0416]">Designed and Developed by Vinoth Kumar</h1>
+                    <h1 className="text-[#FFE1FF] bg-[#0a0416]">Designed and Developed by Vinoth Kumar N</h1>
                 </div>
                 <div className="sm:w-[40%] flex items-center justify-center bg-[#0a0416]">
                     <h1 className="text-[#FFE1FF] flex bg-[#0a0416]">Copyrigth<FaCopyright className='text-[#FFE1FF] mx-3 mt-1' /> 2024</h1>

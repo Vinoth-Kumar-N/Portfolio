@@ -1,8 +1,11 @@
 import { useState, useEffect } from "react";
 import ProjectCard from "../components/ProjectCard";
-import pro2 from '../assets/img/pro2.jpg'
 import pro1 from '../assets/img/pro1.jpg'
+import pro2 from '../assets/img/pro2.jpg'
 import pro3 from '../assets/img/pro3.jpg'
+import pro4 from '../assets/img/pro4.png'
+
+
 import Footer from "../components/Footer";
 
 
@@ -25,6 +28,12 @@ const Projects = () => {
       "desc": "A decentralized application for voting",
       "covImg": pro3,
       "link": "https://github.com/Vinoth-Kumar-N/Voting-Dapp"
+    },
+    {
+      "title" : "1StepAhead",
+      "desc" : " A Web Application for EveryOne everywhere to learn Time Management and to be productive",
+      "covImg" : pro4,
+      "link" : "https://todo-client-cyan.vercel.app/"
     }
   ]
 
